@@ -5,9 +5,44 @@
 
 html {
   font-size: 16px;
-  text-align: center;
 }
 
-h1 {
-  font-size: 1rem;
+#container {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: #e2e2e2;
+  box-shadow: 1px 1px 10px #9b9b9b;
+  margin-top: 100px;
+  opacity: 0.8;
+  border-radius: 5%;
 }
+
+section {
+  position: relative;
+  width: 100%;
+  font-size: 2rem;
+  top: 25px;
+  font-weight: 300;
+}
+
+button {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #6d6af6;
+  color: #fff;
+  top: 50px;
+}
+
+button:hover, button:focus  {
+  background-color: #5857c8;
+  transition: 0.5s;
+  outline: 0;
+}
+

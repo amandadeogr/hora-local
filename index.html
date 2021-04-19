@@ -2,9 +2,8 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clima Hora</title>
+  <title>Hora Local</title>
 
   <link rel="stylesheet" href="style.css">
   
@@ -12,16 +11,17 @@
 <body onload="iniciar()">
 
   <div id="container">
-    <div id="hAtual"></div>
+    <h1 style="padding-top: 30px; font-size: 1.5rem; font-weight: 500;;">Hora Local</h1>
+    <section>
+      <div id="hAtual"></div>
 
-    <div id="dAtual"></div>
-    
+      <div id="dAtual"></div>
+    </section>
 
-    <!--
-    <div id="clima">
-      <p class="graus">Faz 27°C em <span class="local">Macaé, Brasil.</span></p> 
-    </div>
-    -->
+ 
+    <button type="submit" onClick="window.location.reload()">Atualizar</button>
+
+    <footer style="margin-top: 75px; font-weight: 200; font-size: 0.9rem;">Amanda Ramirez</footer>
     
   </div>
   

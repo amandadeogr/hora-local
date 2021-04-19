@@ -24,12 +24,10 @@ function iniciar() {
     let exibirData = document.getElementById('dAtual')
     exibirData.innerHTML = `${data}`
 
-    //dados.getHours < 12 ? alert("menor que 12"): dados.getHours < 18 ? alert("menor que 18") : alert("maior que 18")
+   //com operador ternário
+    dados.getHours() > 6 && dados.getHours() < 12 ? document.body.style.backgroundImage = "url(https://i.pinimg.com/originals/48/11/8a/48118af7ff6b767a4aab266527d81b6e.jpg)": dados.getHours() > 12 && dados.getHours() < 18 ? document.body.style.backgroundImage = "url(https://www.xmple.com/wallpaper/brown-orange-gradient-linear-1920x1080-c2-800000-ff8c00-a-90-f-14.svg)" : document.body.style.backgroundImage = "url(https://wallpapercave.com/wp/HeYmP7w.png)";
 
-    dados.getHours < 12 ? alert("menor que 12"): dados.getHours < 18 ? alert("menor que 18") : alert("maior que 18")
 
-console.log(exibirData)
 
 
 }
-
